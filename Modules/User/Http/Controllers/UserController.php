@@ -20,7 +20,7 @@ class UserController extends Controller
         $response = Http::get("https://jsonplaceholder.typicode.com/todos");
         $users = $response->getBody();
         $pUsers = json_decode($users);
-        $arrUsers = array_slice($pUsers, 10, 10);
+        $arrUsers = array_slice($pUsers, 0, 10);
 
         return view('user::index', compact('arrUsers'));
     }

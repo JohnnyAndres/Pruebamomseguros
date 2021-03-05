@@ -9,7 +9,7 @@
                 <el-table :data="usersData">
                     <el-table-column
                         prop="title"
-                        label="Titulo"
+                        label="Nombre"
                         >
                     </el-table-column>
                     <el-table-column
@@ -19,7 +19,7 @@
                         >
                     </el-table-column>
                     <el-table-column
-                        label="Completado"
+                        label="Activo"
                         width="250">
                         <template  slot-scope="props" >
                             <div v-if="props.row.completed" >
@@ -40,14 +40,6 @@
                     </el-table-column>
                 </el-table>
             </el-card>    
-    <!--<div class="block">
-        <el-pagination
-            layout="prev, pager, next"
-            :total="users.length"
-            :page-size="20"
-            >
-        </el-pagination>
-        </div>-->
         <!--EDIT-->
         <el-dialog title="Editar Usuario" width="25%" :visible.sync="showEditModal">
             <el-form :model="userToUpdate" size="medium" label-position="right">
