@@ -9,7 +9,7 @@
                 <el-table :data="usersData">
                     <el-table-column
                         prop="title"
-                        label="Titulo"
+                        label="Nombre"
                         >
                     </el-table-column>
                     <el-table-column
@@ -19,7 +19,7 @@
                         >
                     </el-table-column>
                     <el-table-column
-                        label="Completado"
+                        label="Activo"
                         width="250">
                         <template  slot-scope="props" >
                             <div v-if="props.row.completed" >

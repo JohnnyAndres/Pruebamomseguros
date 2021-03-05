@@ -100157,7 +100157,7 @@ var render = function() {
                 { attrs: { data: _vm.usersData } },
                 [
                   _c("el-table-column", {
-                    attrs: { prop: "title", label: "Titulo" }
+                    attrs: { prop: "title", label: "Nombre" }
                   }),
                   _vm._v(" "),
                   _c("el-table-column", {
@@ -100165,7 +100165,7 @@ var render = function() {
                   }),
                   _vm._v(" "),
                   _c("el-table-column", {
-                    attrs: { label: "Completado", width: "250" },
+                    attrs: { label: "Activo", width: "250" },
                     scopedSlots: _vm._u([
                       {
                         key: "default",
