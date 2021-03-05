@@ -15,4 +15,3 @@ En el proyecto se ha creado un modulo User, dentro del cual existe un controlado
 
 Para el desarrollo de la interfaz de Usuario se opto por integrar VueJs para realizar peticiones al backend, los componentes que integran la interfaz se encuentran en la carpeta .Modules/User/resources/js/components, las respuestas a estas peticiones son recibidas por Vue y mostrados en una tabla que nos brinda la libreria Element UI, desde esta tabla es posible visualizar los datos de los usuarios almacenados en la API, ademas de poder agregar usuarios a la lista, eliminarlos y editar algunos de sus datos.
 
-J
