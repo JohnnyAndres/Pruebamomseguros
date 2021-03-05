@@ -3683,7 +3683,6 @@ __webpack_require__.r(__webpack_exports__);
     editUser: function editUser(user) {
       var _this = this;
 
-      console.log("useer", user);
       axios__WEBPACK_IMPORTED_MODULE_0___default().put('/api/edit-user', user).then(function (response) {
         var editedUsers = _this.usersData.map(function (user) {
           if (user.id === response.data.json.id) {

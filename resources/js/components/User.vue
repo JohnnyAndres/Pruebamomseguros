@@ -172,7 +172,6 @@ import axios from "axios";
                 
             },
             editUser(user){
-                console.log("useer", user)
                 axios
                     .put('/api/edit-user', user)
                     .then(response => {
